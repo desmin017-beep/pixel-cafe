@@ -10,7 +10,7 @@
 <body>
     <nav class="site-nav" aria-label="Main navigation">
         <div class="nav-inner">
-            <a class="brand" href="#home"><span aria-hidden="true">☕</span> Pixel Cafe</a>
+            <a class="brand" href="#home"><span class="brand-mark" aria-hidden="true">☕</span><span>Pixel Cafe</span></a>
 
             <div class="nav-links">
                 <a href="#home">Home</a>
@@ -77,38 +77,41 @@
         </section>
 
         <section id="about" class="section about-section">
-            <div class="container about-grid">
+            <div class="container">
                 <div class="about-copy">
                     <p class="eyebrow">A place to recharge</p>
                     <h2>About Pixel Cafe</h2>
                     <p>Pixel Cafe is a welcoming place to enjoy coffee, food, gaming and studying.</p>
                     <p>Whether you are taking a break between levels or settling in for a study session, there is a spot for you.</p>
                 </div>
+            </div>
+        </section>
 
-                <div class="about-features" aria-label="What Pixel Cafe is about">
-                    <div class="feature">
-                        <span aria-hidden="true">☕</span>
-                        <div>
-                            <h3>Coffee</h3>
-                            <p>A warm drink for your next break.</p>
-                        </div>
-                    </div>
+        <section id="why" class="section why-section" aria-labelledby="why-heading">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">Coffee • Play • Study</p>
+                    <h2 id="why-heading">Why Pixel Cafe?</h2>
+                </div>
 
-                    <div class="feature">
-                        <span aria-hidden="true">🎮</span>
-                        <div>
-                            <h3>Gaming</h3>
-                            <p>A relaxed setting for players.</p>
-                        </div>
-                    </div>
+                <div class="why-features">
+                    <article class="why-feature">
+                        <span class="why-icon" aria-hidden="true">🎮</span>
+                        <h3>Gaming Friendly</h3>
+                        <p>A relaxed setting for players.</p>
+                    </article>
 
-                    <div class="feature">
-                        <span aria-hidden="true">📚</span>
-                        <div>
-                            <h3>Studying</h3>
-                            <p>A comfortable place to focus.</p>
-                        </div>
-                    </div>
+                    <article class="why-feature">
+                        <span class="why-icon" aria-hidden="true">📚</span>
+                        <h3>Study Space</h3>
+                        <p>A comfortable place to focus.</p>
+                    </article>
+
+                    <article class="why-feature">
+                        <span class="why-icon" aria-hidden="true">☕</span>
+                        <h3>Great Coffee</h3>
+                        <p>A warm drink for your next break.</p>
+                    </article>
                 </div>
             </div>
         </section>
@@ -124,7 +127,7 @@
 
     <footer class="site-footer">
         <div class="footer-inner">
-            <p><strong>☕ Pixel Cafe</strong></p>
+            <p class="footer-brand"><span class="brand-mark" aria-hidden="true">☕</span><strong>Pixel Cafe</strong></p>
             <div class="footer-links">
                 <a href="#menu">Menu</a>
                 <a href="#about">About</a>
@@ -135,4 +138,3 @@
     </footer>
 </body>
 </html>
-
